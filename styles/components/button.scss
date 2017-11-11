@@ -1,3 +1,29 @@
 .button {
+    display:block;
+    height: 70px;
+    width: 70px;
     border-radius: 50%;
+    background-color: $button-color;
+    align-content: center;
+}
+
+.button__icon {
+    font-family: $font-icon;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+  }
+
+.button:hover {
+    .button__icon{
+        font-size: 36px;
+    }
 }
