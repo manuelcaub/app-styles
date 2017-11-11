@@ -1,0 +1,25 @@
+.image {
+    width: auto;
+    height: 50%;
+}
+
+.image__button {
+    opacity: 0;
+    background-color: transparent;
+    border-color: transparent;
+    transition: opacity .35s ease;
+}
+
+.image__button--left {
+    left: 5%;
+}
+
+.image__button--rigth {
+    right: 5%;
+}
+
+.container:hover {
+    .image__button {
+        opacity: 1;
+    }
+}
