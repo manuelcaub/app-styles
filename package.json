@@ -1,5 +1,8 @@
 {
   "name": "app-styles",
+  "scripts": {
+    "start": "gulp sass & xcopy .\\index.html .\\public\\ /y & xcopy .\\img .\\public\\img\\ /y"
+  },
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-sass": "^3.1.0"
